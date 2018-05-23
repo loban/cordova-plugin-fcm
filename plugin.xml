@@ -66,8 +66,8 @@
 		</config-file>
 
 		<preference name="FIREBASE_VERSION" default="11.6.+"/>
-        <framework src="com.google.firebase:firebase-core:FIREBASE_VERSION" />
-        <framework src="com.google.firebase:firebase-messaging:FIREBASE_VERSION" />
+        <framework src="com.google.firebase:firebase-core:$FIREBASE_VERSION" />
+        <framework src="com.google.firebase:firebase-messaging:$FIREBASE_VERSION" />
 		
 		<framework src="src/android/FCMPlugin.gradle" custom="true" type="gradleReference"/>
 			
